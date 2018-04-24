@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+html,body{
+    height: 100%;
+}
+h1{
+    font-size: 45px;
+    padding: 10px 10px;
+}
+h2{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+h4{
+    margin-bottom: 10px;
+}
+p{
+    color:#777;
+    margin-bottom: 10px;
+}
+.clearfxi::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.layout{
+    margin: 0 auto;
+    width: 1300px;
+}
+header{
+    height: 100%;
+    background: url(https://s1.ax1x.com/2018/04/12/CEFjYV.jpg) center center no-repeat;
+}
+header .navbar .logo{
+    font-size: 32px;
+    margin: 10px 10px; 
+    color: #fec503;
+    float: left;
+}
+header .navbar .nav li{
+    float: right;
+    margin: 20px 20px;
+    font-size: 20px;
+} 
+header .navbar .nav li > a{
+    color:#fec503;
+}
+header .navbar .theme{
+    padding: 200px 200px;
+    text-align: center;
+}
+header .navbar .theme > .theme_word{
+    font-size: 35px;
+    padding: 20px 20px;
+    color: #000;
+}
+header .navbar .theme > .button{
+    border: 1px solid #fec503;
+    background: #fec503;
+    margin-top: 30px;
+    border-radius: 3px;
+}
+header .navbar .theme > a{
+    display:inline-block;
+    padding: 20px 20px;
+    color: #fff;
+    font-size: 18px;
+}
+main section .services{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+main .title{
+    text-align: center;
+}
+
+main .title >p{
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+main .box{
+    width: 33.3%;
+    float: left;
+    padding: 30px;
+}
+main .services .services_con >.box >.icon{
+    border: 1px solid #fec503;
+    background: #fec503;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.icon-diannao,.icon-gouwuche,.icon-suo{
+    font-size: 60px;
+    padding: 17px;
+    color: #fff;
+}
+main section .portfolio{
+    background: #f7f7f7;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+main section .portfolio .portfolio_con li{
+    float: left;
+    text-align: center;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    width: 350px;
+}
+main section .portfolio .portfolio_con li img{
+    width: 100%;
+
+}    section .portfolio .portfolio_con li >.summary{
+    padding: 10px 10px;
+    background: #fff;
+}
+section .about {
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+section .about .about_con .li_layout{
+    position: relative;
+    padding: 20px;
+}
+.about_con ul > li::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    margin-left: 0;
+    display: inline-block;
+    width: 4px;
+    height: 75px;
+    background: #f1f1f1;
+    border: 1px solid #f1f1f1;
+}
+section .about .about_con .timebox{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 170px;
+    height: 170px;
+    border: 5px solid #f1f1f1;
+    border-radius: 50%;
+    background:#fec503;
+    color: #fff;
+    text-align: center;
+}
+section .about .about_con .timebox >h4{
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+.about_con ul > li:nth-child(even) .describe{
+    float: right;
+    width: 33.3%;
+    padding: 10px;
+    margin-right: 90px;
+    text-align: left;
+}
+.about_con ul > li:nth-child(odd) .describe{
+    float: left;
+    width: 33.3%;
+    padding: 10px;
+    margin-left: 90px;
+    text-align: right;
+}
+.about_con ul > li:last-child::before{
+    height: 0;
+}
+.about_con ul > li:last-child{
+    margin-top: 100px;
+    padding: 0;
+}
+main section .team{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background: #f7f7f7;
+}
+main section .team .team_cont .box{
+    padding: 30px 100px;
+    margin-bottom: 50px;
+}
+main section .team .team_cont .box >img{
+    padding: 40px 0;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+}
+main section .team .team_cont .box ul >li{
+    float: left;
+    width: 45px;
+    height: 45px;
+    background: black;
+    border-radius: 50%;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.icon-birdxiaoniao , .icon-weibiaoti504-copy , .icon-facebook{
+    color: #fff;
+    font-size: 25px;
+    padding-top: 10px;
+}
+main section .advertising li {
+    float: left;
+    margin: 50px 61px; 
+}
+main section .contact{
+    padding: 100px 10px;
+    background: url(https://s1.ax1x.com/2018/04/12/CEFjYV.jpg) center center no-repeat;
+}
+main section .contact .contact_con {
+    padding: 10px 100px;
+}
+main section .contact .contact_con .form_box_l , .form_box_r{
+    float: left;
+    width: 50%;
+}
+main section .contact .contact_con .form_group{
+    height: 50px;
+    margin: 20px 20px;
+    
+}
+main section .contact .contact_con .form_group > input{
+    width: 100%;
+    height: 100%;
+    padding: 20px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+main section .contact .contact_con .form_group > textarea{
+    width: 100%;
+    height: 100%;
+    padding: 20px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+main section .contact .contact_con .form_box_r .form_group {
+    height: 190px;
+}
+main section .contact .contact_con > a{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 200px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-top: 300px;
+    background: #fec503;
+    color: #fff;
+    border: 1px solid #fec503;
+    border-radius: 5px;
+}
+main section .contact .contact_con > a:hover{
+    opacity: 0.7;
+}
+footer {
+    text-align: center;
+}
+footer .footer-con .copyright{
+    float: left;
+    width: 33.3%;
+    padding: 30px 20px;
+}
+footer .footer-con .icon{
+    float: left;
+    width: 33.3%;
+    padding: 13px  100px;
+}
+footer .footer-con .tag{
+    float: left;
+    width: 33.3%;
+    padding: 30px 10px;
+}
+footer .footer-con .tag >a{
+    display: inline-block;
+    padding-right: 20px;
+    color: #fec503;
+}
+footer .footer-con .icon ul >li{
+    float: left;
+    width: 45px;
+    height: 45px;
+    background: black;
+    border-radius: 50%;
+    margin-left: 25px;
+    margin-top: 10px;
+}
